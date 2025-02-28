@@ -1,0 +1,10 @@
+Start:
+ - Start the countdown timer from the current time (default is 25 minutes).
+
+Pause:
+ - Pause the timer
+
+Reset:
+ - Set the timer back to the "start time"
+
+A user must be able to set the "start time" by clicking +5 or -5 buttons

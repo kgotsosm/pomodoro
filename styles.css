@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: clip;
+}
+
+.heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.timer {
+    font-family: "Arial", sans-serif;
+    font-size: 3rem;
+    margin-top: 1.4rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fdfbfa;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+#start {
+    background-color: forestgreen;
+    cursor: pointer;
+}
+
+#pause {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #707173;
+    cursor: pointer;
+}
