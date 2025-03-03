@@ -5,11 +5,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow-y: clip;
+    background-color: rgba(64, 124, 234, 0.9);
 }
 
 .heading {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
+    color: white;
 }
 
 .main-container {
@@ -23,6 +25,12 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 3rem;
     margin-top: 1.4rem;
+    color: white;
+}
+
+.modify {
+    cursor: pointer;
+    color: white;
 }
 
 .btn-container {
