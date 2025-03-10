@@ -59,7 +59,12 @@ function addFive() {
 }
 
 function minusFive() {
-    if (timeLeft <= 300) {
+
+    if(!isRunning && timeLeft >= 300) {
+        timeLeft -= 300
+        displayTimer()
+    }
+    else if (timeLeft <= 300) {
         clearInterval(interval);
         timeLeft = 0;
         resetTimer();
